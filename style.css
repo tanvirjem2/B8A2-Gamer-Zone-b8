@@ -228,6 +228,40 @@
 }
 
 
+/* small game style */
+
+.small-game-container {
+    display: flex;
+    background-color: #fcf7fd;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 118px;
+}
+
+.small-game {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    background: #FFF;
+    width: 262px;
+    height: 80px;
+    margin: 20px;
+}
+
+.small-game:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
+
+.small-game p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
 
 /* Responsive style */
 
@@ -268,6 +302,14 @@
 
     .video-card .overlay {
         height: 83%;
+    }
+
+    .small-game-container {
+        flex-wrap: wrap;
+    }
+
+    .small-game {
+        width: 40%;
     }
 }
 
