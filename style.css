@@ -341,7 +341,8 @@ footer {
 .footer-info {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 60px;
     margin-top: 56px;
 }
 
