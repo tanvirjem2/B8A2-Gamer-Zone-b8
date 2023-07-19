@@ -303,6 +303,7 @@
     width: 262px;
     height: 80px;
     margin: 20px;
+    border: none;
 }
 
 .small-game:hover {
