@@ -227,6 +227,60 @@
     -webkit-text-fill-color: transparent;
 }
 
+/* instant game section */
+
+.instant-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
+
+.instant-play-info {
+    margin-left: 100px;
+}
+
+.instant-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.pi {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant-description {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 353px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.instant-play-small-img img {
+    width: 200px;
+    height: 550px;
+    position: relative;
+    bottom: 280px;
+    right: 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.instant-play-img-container img {
+    width: 100%;
+}
+
 
 /* small game style */
 
@@ -236,7 +290,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 120px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -404,6 +458,22 @@ footer {
     .last-footer {
         padding-bottom: 30px;
     }
+
+    /* instant section */
+
+    .instant-container {
+        flex-direction: column;
+    }
+
+    .instant-play-small-img img {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .instant-play-info {
+        margin-left: 0px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -424,6 +494,10 @@ footer {
     .video-cards {
         grid-template-columns: repeat(2, 1fr);
         padding: 20px;
+    }
+
+    .instant-container {
+        flex-direction: column;
     }
 
 }
