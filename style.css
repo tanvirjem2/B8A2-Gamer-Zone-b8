@@ -235,7 +235,7 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 120px;
-    padding-bottom: 120px;
+
 }
 
 .instant-play-info {
@@ -268,8 +268,8 @@
 }
 
 .instant-play-small-img img {
-    width: 200px;
-    height: 550px;
+    width: 50%;
+    height: 50%;
     position: relative;
     bottom: 280px;
     right: 200px;
@@ -465,10 +465,23 @@ footer {
         flex-direction: column;
     }
 
+    .instant-play-img-container {
+        margin-left: 80px;
+    }
+
+    .instant-play-img-container img {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
     .instant-play-small-img img {
         position: relative;
-        bottom: 0px;
-        right: 0px;
+        bottom: 170px;
+        right: 80px;
+        width: 50%;
+        height: 50%;
     }
 
     .instant-play-info {
@@ -498,6 +511,13 @@ footer {
 
     .instant-container {
         flex-direction: column;
+    }
+
+    .instant-play-small-img img {
+        width: 50%;
+        height: 50%;
+        position: relative;
+        right: 60px;
     }
 
 }
