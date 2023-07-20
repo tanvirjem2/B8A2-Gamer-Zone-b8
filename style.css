@@ -162,7 +162,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 99%;
     height: 77%;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
@@ -171,7 +171,7 @@
     align-items: center;
     opacity: 0;
     transition: opacity 0.8s;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 2px solid #FF42A5;
 }
 
@@ -431,6 +431,21 @@ footer {
 
     .video-card .overlay {
         height: 83%;
+    }
+
+    .video-card:hover .overlay {
+        opacity: 1;
+    }
+
+    .video-card:hover .play-button,
+    .video-card:hover .watch-now {
+        opacity: 1;
+        /* Show the play button and "Watch Now" text on hover */
+    }
+
+    .small-game:hover {
+        border: 2px solid #FF42A5;
+        color: #FF42A5;
     }
 
     .small-game-container {
