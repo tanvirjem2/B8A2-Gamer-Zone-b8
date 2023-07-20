@@ -286,10 +286,10 @@
 
 .small-game-container {
     display: flex;
-    background-color: #fcf7fd;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fcf7fd;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -300,7 +300,7 @@
     justify-content: space-evenly;
     border-radius: 50px;
     background: #FFF;
-    width: 262px;
+    width: 15%;
     height: 80px;
     margin: 20px;
     border: none;
